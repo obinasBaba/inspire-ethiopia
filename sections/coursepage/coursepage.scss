@@ -20,7 +20,7 @@
 }
 
 
-nav.navigation {
+nav.course_navigation {
   position: fixed;
   top: 0;
   display: flex;
@@ -33,7 +33,7 @@ nav.navigation {
   box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.8);
   z-index: 1000;
   height: 4rem;
-  //border: 1px solid red;
+  padding: 0 1rem;
 
   .nav-items {
     list-style: none;
@@ -46,20 +46,20 @@ nav.navigation {
 }
 
 @media screen and (min-width: 350px) {
-  .navigation .nav-items {
+  .course_navigation .nav-items {
     gap: 1rem;
     font-size: 1rem;
   }
 }
 
 @media screen and (min-width: 700px) {
-  nav.navigation {
+  nav.course_navigation {
     padding: 0 4rem;
   }
 }
 
 
-.navigation button {
+.course_navigation button {
   background-color: transparent;
   border: 0;
   transform: scale(1.5);
@@ -191,12 +191,18 @@ video {
 }
 
 
+.content_wrapper{
+  width: 100%;
+  overflow-x: hidden;
+  //border: 1px solid red;
+
+}
+
 .content {
   //border: 1px solid yellow;
   width: 100%;
   display: flex;
   margin-top: 1rem;
-  overflow-x: hidden;
 
   transform: translateX(0%);
 }
@@ -285,7 +291,7 @@ footer .text > * {
   margin: 0;
 }
 
-.text span {
+.text .prev_price {
   margin: 0;
   text-decoration: line-through;
 }

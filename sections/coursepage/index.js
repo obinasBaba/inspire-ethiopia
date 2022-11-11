@@ -1,6 +1,6 @@
 import './coursepage.scss'
 
-/*import gsap from 'gsap'
+import gsap from 'gsap'
 
 
 
@@ -38,5 +38,5 @@ contentBtn.addEventListener('click', evt => {
         x: '-100%',
         duration: .3
     })
-})*/
+})
 

@@ -192,10 +192,11 @@ video {
 
 
 .content {
-  /*border: 1px solid yellow;*/
+  //border: 1px solid yellow;
   width: 100%;
   display: flex;
   margin-top: 1rem;
+  overflow-x: hidden;
 
   transform: translateX(0%);
 }

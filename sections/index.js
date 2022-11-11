@@ -1,3 +1,2 @@
-import './hero'
-import './others'
-import './featured'
+import './homepage'
+import './coursepage'

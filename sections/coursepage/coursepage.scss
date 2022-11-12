@@ -235,7 +235,7 @@ video {
 }
 
 
-footer {
+footer.course_footer {
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -250,7 +250,7 @@ footer {
 
 }
 
-footer .offer {
+footer.course_footer .offer {
   /*margin: 1rem 0;*/
   border-bottom: 1px solid lightgrey;
   width: 100%;
@@ -259,7 +259,7 @@ footer .offer {
   padding: .3rem 0;
 }
 
-footer > div {
+footer.course_footer > div {
 
   padding: 1rem .5rem;
 
@@ -268,7 +268,7 @@ footer > div {
   justify-content: space-between;
 }
 
-footer button {
+footer.course_footer button {
   border: none;
   color: white;
   background-color: #44b7b7;
@@ -277,12 +277,12 @@ footer button {
 
 }
 
-footer .text {
+footer.course_footer .text {
   display: flex;
   flex-flow: column;
 }
 
-footer .text > * {
+footer.course_footer .text > * {
   font-size: .8rem;
 }
 

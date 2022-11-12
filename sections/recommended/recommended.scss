@@ -1,11 +1,21 @@
 .recommended{
   //border: 1px solid red;
+  position: relative;
 }
 
 .recommended_nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transform: translateX(-1rem);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 11;
+  background-color: white;
+  padding: 1rem;
+
+  //border: 1px solid red;
 
   h1{
     margin: 0 auto;
@@ -23,7 +33,7 @@
 .recommended_list{
   list-style: none;
   padding-left: 0;
-  margin-top: 5rem;
+  margin-top: 6rem;
   display: flex;
   flex-flow: column;
   gap: 3rem;

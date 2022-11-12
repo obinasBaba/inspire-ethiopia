@@ -6,6 +6,7 @@
 .hero .title{
   color: red;
   text-align: center;
+  margin-top: 3rem;
 }
 
 
@@ -65,3 +66,103 @@
 .hero-swiper .swiper-scrollbar-drag{
   background-color: red;
 }
+
+
+footer.home_footer{
+
+  .footer_btn{
+    position: fixed;
+    bottom: 0;
+    width: calc(100%);
+    background-color: white;
+    padding: 1.5rem;
+
+    //max-width: 100%;
+    transform: translateX(-1rem);
+
+
+    button{
+      background-color: red;
+      border-radius: .3rem;
+      width: 100%;
+      margin: 0;
+      border: none;
+      color: white;
+      font-size: 1.5rem;
+      padding: 1.3rem;
+    }
+  }
+}
+
+
+.nav_menu{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: .6rem 0;
+  //border: 1px solid red;
+  transform: translateX(-1rem);
+  z-index: 11;
+
+  box-sizing: content-box;
+
+  //border: 1px solid red;
+  background-color: white;;
+
+
+  .nav_menu_btn{
+    background-color: transparent;
+    border: none;
+    transform: scale(1.5);
+    margin: 1rem 0 1rem .7rem;
+  }
+
+  .nav_slider{
+    //display: none;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    background-color: #eeeded;
+    width: 80%;
+
+    transform: translateX(-101%);
+
+  }
+
+}
+
+.nav_slider header{
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+  background-color: lightgray;
+  padding: 1rem .3rem;
+
+}
+
+.nav_slider header button{
+  border: none;
+  background-color: transparent;
+  padding: 1rem;
+
+}
+
+.nav_menu_list{
+  //list-style: none;
+  //padding-left: 0;
+  padding: 0 2rem;
+}
+
+.nav_menu_list li{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: .7rem 0;
+  font-size: 1.2rem;
+}
+
+.nav_menu_list p{
+  margin-right: auto;
+}
+
+

@@ -5,6 +5,12 @@
 @use "../variables/colors" as *;
 
 
+
+*{
+  box-sizing: border-box;
+  /*border: thin solid crimson;*/
+}
+
 :root {
   --coef-indent: 1; // for margin and padding
   --coef-title: 1; // for title font-size

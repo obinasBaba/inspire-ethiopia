@@ -10,6 +10,7 @@
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
 
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Quicksand&display=swap"
@@ -20,6 +21,7 @@
 
     <style>
         #container {
+            position: relative;
             padding: 1.2rem 1.2rem 10rem;
         }
 
@@ -32,6 +34,39 @@
 </head>
 <body>
 <div id="container">
+
+    <nav class="nav_menu">
+        <button class="nav_menu_btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="nav_slider">
+            <header>
+                <button class="nav_list_btn">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <p>Menu</p>
+            </header>
+            <ul class="nav_menu_list">
+                <li><i class="fa-regular fa-user"></i>
+                    <p>Mindset training</p>  <i class="fa-solid fa-arrow-right"></i></li>
+                <li><i class="fa-solid fa-book"></i>
+                    <p>Entrance Exam</p>  <i class="fa-solid fa-arrow-right"></i></li>
+                <li><i class="fa-regular fa-user"></i>
+                    <p>VIP class</p>  <i class="fa-solid fa-arrow-right"></i></li>
+                <li><i class="fa-solid fa-cloud"></i>
+                    <p>Physics</p>  <i class="fa-solid fa-arrow-right"></i></li>
+                <li><i class="fa-regular fa-user"></i>
+                    <p>Mathematics</p>  <i class="fa-solid fa-arrow-right"></i></li>
+                <li><i class="fa-regular fa-user"></i>
+                    <p>Motivational</p>  <i class="fa-solid fa-arrow-right"></i></li>
+                <li><i class="fa-regular fa-user"></i>
+                    <p>All courses</p>  <i class="fa-solid fa-arrow-right"></i></li>
+
+
+            </ul>
+        </div>
+    </nav>
 
     <section class="hero">
 
@@ -174,7 +209,7 @@
                                     <p class="discount">9.99 US$</p>
                                 </div>
                             </div>
-                         </a>
+                        </a>
                     </div>
                     <div class="swiper-slides others_swiper_slide">
                         <a href="/course.html">
@@ -466,6 +501,11 @@
         </div>
     </section>
 
+    <footer class="home_footer">
+        <div class="footer_btn">
+            <button>Start</button>
+        </div>
+    </footer>
 
 </div>
 <script type="module" src="/js/main.js"></script>

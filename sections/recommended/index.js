@@ -1,1 +1,0 @@
-import './recommended.scss'

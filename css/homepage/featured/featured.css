@@ -1,0 +1,22 @@
+.featured{
+  margin-top: 4rem;
+}
+
+.featured_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.featured_card{
+  border-radius: .6rem;
+  overflow: hidden;
+}
+
+.featured_card img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+  max-height: 23vmax;
+}
